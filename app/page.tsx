@@ -53,7 +53,7 @@ export default function Home() {
                     </div>
                     <div className="text-center mt-6 max-w-sm">
                         <p className="text-gray-4 text-sm md:text-base font-medium px-4">
-                            It's not about what we create. It's about why we create. It's not design by committee or focus group. It's about germinating these ideas that are done with a truly independent mentality.
+                            It&apos;s not about what we create. It&apos;s about why we create. It&apos;s not design by committee or focus group. It&apos;s about germinating these ideas that are done with a truly independent mentality.
                         </p>
                     </div>
                     <Gallery />
@@ -65,7 +65,7 @@ export default function Home() {
                             <div className="flex flex-row justify-center items-center gap-x-2">
                                 <Chat color="white" />
                                 <h1 className="text-base text-white">
-                                    Lets talk
+                                    Let&apos;s talk
                                 </h1>
                             </div>
                             <Button>

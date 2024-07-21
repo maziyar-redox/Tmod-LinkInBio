@@ -22,7 +22,7 @@ export function Gallery() {
                 <CarouselContent>
                     {galleryItems.map((items) => (
                         <CarouselItem key={items.id}>
-                            <img className=" h-80 w-full object-cover object-center rounded-md" src={items.img} alt="Ax" />
+                            <img className="h-80 w-full object-cover object-center rounded-md" src={items.img} alt="Ax" />
                         </CarouselItem>
                     ))}
                 </CarouselContent>

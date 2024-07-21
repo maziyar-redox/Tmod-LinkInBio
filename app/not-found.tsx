@@ -8,7 +8,7 @@ export default function NotFound() {
                 Oops! Page Not Found
             </h1>
             <p className="max-w-md text-sm md:text-base font-normal text-gray-4">
-                It appears you've reached a realm that doesn't exist in our digital universe. Fear not, fellow traveler! Let's navigate you back to familiar constellations.
+                It appears you&apos;ve reached a realm that doesn&apos;t exist in our digital universe. Fear not, fellow traveler! Let&apos;s navigate you back to familiar constellations.
             </p>
             <Button variant="default" size="default" asChild>
                 <Link href="/">
