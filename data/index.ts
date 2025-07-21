@@ -1,38 +1,42 @@
-import { Email } from "@/components/icon/Email";
-import { Glob } from "@/components/icon/Glob";
-import { Instagram } from "@/components/icon/Instagram";
-import { Telegram } from "@/components/icon/Telegram";
-import { Twitter } from "@/components/icon/Twitter";
+import { LuGlobe, LuMail, LuInstagram, LuTwitter } from "react-icons/lu";
+import { FaTelegramPlane } from "react-icons/fa";
+import { IconType } from "react-icons";
 
 export const socialMediaData: {
     id: number;
     link: string;
-    icon: JSX.Element
+    icon: IconType;
+    title: string;
 }[] = [
     {
         id: 1,
         link: "",
-        icon: Glob({ size: 25, color: "currentColor" })
+        title: "Website",
+        icon: LuGlobe
     },
     {
         id: 2,
         link: "",
-        icon: Telegram({ size: 25, color: "currentColor" })
+        title: "Telegram",
+        icon: FaTelegramPlane
     },
     {
         id: 3,
         link: "",
-        icon: Instagram({ size: 25, color: "currentColor" })
+        title: "Instagram",
+        icon: LuInstagram
     },
     {
         id: 4,
         link: "",
-        icon: Twitter({ size: 25, color: "currentColor" })
+        title: "Twitter",
+        icon: LuTwitter
     },
     {
         id: 5,
         link: "",
-        icon: Email({ size: 25, color: "currentColor" })
+        title: "Email",
+        icon: LuMail
     },
 ];
 

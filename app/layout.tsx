@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Rubik } from "next/font/google";
 import "./globals.css";
+
 import { ThemeProvider } from "@/components/theme-provider";
+import { cn } from "@/lib/utils";
 
 const inter = Rubik({
 	subsets: ["latin"]
@@ -13,21 +15,26 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-	children,
+    children,
 }: Readonly<{
-	children: React.ReactNode;
+    children: React.ReactNode;
 }>) {
-	return (
-		<html lang="en" dir="ltr" suppressHydrationWarning>
-			<body className={inter.className}>
-				<ThemeProvider
-					attribute="class"
-					defaultTheme="dark"
-					enableSystem
-				>
-					{children}
-				</ThemeProvider>
-			</body>
-    	</html>
-	);
+    return (
+        <html lang="en" suppressHydrationWarning>
+            <body
+                className={cn(
+                    "antialiased",
+                    inter.className
+                )}
+            >
+                <ThemeProvider
+                    attribute="class"
+                    defaultTheme="dark"
+                    enableSystem
+                >
+                    {children}
+                </ThemeProvider>
+            </body>
+        </html>
+    );
 };
