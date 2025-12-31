@@ -1,7 +1,7 @@
 <div align="left" style="position: relative;">
 <h1>TMOD-LINKINBIO</h1>
 <p align="left">
-	<em><code>❯ REPLACE-ME</code></em>
+	<em><code>❯ Link in bio template created with nextjs and typescript</code></em>
 </p>
 <p align="left">
 	<img src="https://img.shields.io/github/license/maziyar-redox/Tmod-LinkInBio?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
@@ -27,18 +27,6 @@
 - [ Contributing](#-contributing)
 - [ License](#-license)
 - [ Acknowledgments](#-acknowledgments)
-
----
-
-##  Overview
-
-<code>❯ REPLACE-ME</code>
-
----
-
-##  Features
-
-<code>❯ REPLACE-ME</code>
 
 ---
 
@@ -85,31 +73,31 @@
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/maziyar-redox/Tmod-LinkInBio/blob/master/package-lock.json'>package-lock.json</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ Dev workflow</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/maziyar-redox/Tmod-LinkInBio/blob/master/next.config.ts'>next.config.ts</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ Dev workflow</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/maziyar-redox/Tmod-LinkInBio/blob/master/tsconfig.json'>tsconfig.json</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ Dev workflow</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/maziyar-redox/Tmod-LinkInBio/blob/master/eslint.config.mjs'>eslint.config.mjs</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ Dev workflow</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/maziyar-redox/Tmod-LinkInBio/blob/master/postcss.config.mjs'>postcss.config.mjs</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ Dev workflow</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/maziyar-redox/Tmod-LinkInBio/blob/master/package.json'>package.json</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ Dev workflow</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/maziyar-redox/Tmod-LinkInBio/blob/master/components.json'>components.json</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ Dev workflow</code></td>
 			</tr>
 			</table>
 		</blockquote>
@@ -120,7 +108,7 @@
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/maziyar-redox/Tmod-LinkInBio/blob/master/types/iconType.ts'>iconType.ts</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ for safe typing icons</code></td>
 			</tr>
 			</table>
 		</blockquote>
@@ -131,7 +119,7 @@
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/maziyar-redox/Tmod-LinkInBio/blob/master/lib/utils.ts'>utils.ts</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ contains helper functions</code></td>
 			</tr>
 			</table>
 		</blockquote>
@@ -142,7 +130,7 @@
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/maziyar-redox/Tmod-LinkInBio/blob/master/components/theme-provider.tsx'>theme-provider.tsx</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ theme provider</code></td>
 			</tr>
 			</table>
 			<details>
@@ -151,7 +139,7 @@
 					<table>
 					<tr>
 						<td><b><a href='https://github.com/maziyar-redox/Tmod-LinkInBio/blob/master/components/gallery/index.tsx'>index.tsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
+						<td><code>❯ components</code></td>
 					</tr>
 					</table>
 				</blockquote>
@@ -162,7 +150,7 @@
 					<table>
 					<tr>
 						<td><b><a href='https://github.com/maziyar-redox/Tmod-LinkInBio/blob/master/components/dialog/index.tsx'>index.tsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
+						<td><code>❯ components</code></td>
 					</tr>
 					</table>
 				</blockquote>
@@ -173,7 +161,7 @@
 					<table>
 					<tr>
 						<td><b><a href='https://github.com/maziyar-redox/Tmod-LinkInBio/blob/master/components/social/index.tsx'>index.tsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
+						<td><code>❯ components</code></td>
 					</tr>
 					</table>
 				</blockquote>
@@ -184,27 +172,27 @@
 					<table>
 					<tr>
 						<td><b><a href='https://github.com/maziyar-redox/Tmod-LinkInBio/blob/master/components/ui/Carousel.tsx'>Carousel.tsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
+						<td><code>❯ Master component</code></td>
 					</tr>
 					<tr>
 						<td><b><a href='https://github.com/maziyar-redox/Tmod-LinkInBio/blob/master/components/ui/Button.tsx'>Button.tsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
+						<td><code>❯ Master component</code></td>
 					</tr>
 					<tr>
 						<td><b><a href='https://github.com/maziyar-redox/Tmod-LinkInBio/blob/master/components/ui/Avatar.tsx'>Avatar.tsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
+						<td><code>❯ Master component</code></td>
 					</tr>
 					<tr>
 						<td><b><a href='https://github.com/maziyar-redox/Tmod-LinkInBio/blob/master/components/ui/Badge.tsx'>Badge.tsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
+						<td><code>❯ Master component</code></td>
 					</tr>
 					<tr>
 						<td><b><a href='https://github.com/maziyar-redox/Tmod-LinkInBio/blob/master/components/ui/Dialog.tsx'>Dialog.tsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
+						<td><code>❯ Master component</code></td>
 					</tr>
 					<tr>
 						<td><b><a href='https://github.com/maziyar-redox/Tmod-LinkInBio/blob/master/components/ui/tooltip.tsx'>tooltip.tsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
+						<td><code>❯ Master component</code></td>
 					</tr>
 					</table>
 				</blockquote>
@@ -217,19 +205,19 @@
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/maziyar-redox/Tmod-LinkInBio/blob/master/app/layout.tsx'>layout.tsx</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ root files</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/maziyar-redox/Tmod-LinkInBio/blob/master/app/globals.css'>globals.css</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ root files</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/maziyar-redox/Tmod-LinkInBio/blob/master/app/not-found.tsx'>not-found.tsx</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ root files</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/maziyar-redox/Tmod-LinkInBio/blob/master/app/page.tsx'>page.tsx</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ root files</code></td>
 			</tr>
 			</table>
 		</blockquote>
@@ -292,14 +280,6 @@ Run the test suite using the following command:
 ❯ npm test
 ```
 
-
----
-##  Project Roadmap
-
-- [X] **`Task 1`**: <strike>Implement feature one.</strike>
-- [ ] **`Task 2`**: Implement feature two.
-- [ ] **`Task 3`**: Implement feature three.
-
 ---
 
 ##  Contributing
@@ -347,7 +327,7 @@ Run the test suite using the following command:
 
 ##  License
 
-This project is protected under the [MIT](https://choosealicense.com/licenses/mit/) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+This project is protected under the [MIT](https://choosealicense.com/licenses/mit/) License. For more details, refer to the [LICENSE](https://github.com/maziyar-redox/Tmod-LinkInBio/blob/main/LICENSE) file.
 
 ---
 
